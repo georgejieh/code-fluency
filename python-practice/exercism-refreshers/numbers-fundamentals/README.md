@@ -15,6 +15,11 @@ Working through these exercises helped me revisit the two main number types in P
 - The modulo operator (`%`) came in handy for calculating remainders in `get_leftover_of_bills`
 - I practiced converting between types using `int()` and `float()`
 
+### New Operations I Learned
+- **Bitwise operators**: I discovered how to use the left shift operator (`<<`) for efficient exponential calculations
+  - `1 << n` is equivalent to `2 ** n` but executes at the bit level, which is more efficient
+  - The formula `(1 << 64) - 1` efficiently calculates the sum of all powers of 2 from 2⁰ to 2⁶³
+
 ### Techniques I Used
 - I had to look up the `round(value, decimal_places)` method as I couldn't remember the syntax for rounding
 - I got to practice chaining comparisons (`1 <= number <= 64`) which made my code cleaner
