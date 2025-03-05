@@ -26,6 +26,11 @@ code-fluency/
 │           ├── README.md       # Core concepts and patterns
 │           └── [solutions]     # My implementations
 │
+├── java-practice/
+│   ├── README.md               # Summary of concepts learned in Java
+│   ├── exercism-refreshers/    # Exercises from Exercism's Java track
+│   └── algorithm-practice/     # Java implementations of algorithms
+│
 ├── javascript-practice/
 │   ├── README.md               # Summary of concepts learned in Javascript
 │   ├── exercism-refreshers/    # Exercises from Exercism's JavaScript track
