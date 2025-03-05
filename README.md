@@ -46,8 +46,9 @@ code-fluency/
 
 ## Future Focus Areas
 
-- **JavaScript**: Learn JavaScript systematically
 - **SQL**: Practicing complex query patterns and optimization
+- **Java**: Learn Java systematically for chance to contribute to future open source projects that utilizes Java
+- **JavaScript**: Learn JavaScript systematically to do front end development better
 
 ## Common Lookup Points
 
