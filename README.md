@@ -74,7 +74,6 @@ This section tracks syntax and concepts I have picked up during my practice:
 - String methods like `isalnum()` for character type checking
 - Using `enumerate()` for cleaner iteration with indexes
 - Boolean simplification (using `return condition` instead of verbose conditionals)
-- Mathematical optimizations (like using formulas for sum of geometric series)
 
 ## Learning Philosophy
 
