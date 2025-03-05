@@ -59,25 +59,45 @@ Through these exercises, I developed a better understanding of common string man
        result = processed + punct  # Re-add punctuation
    ```
 
+4. **Working with string immutability**:
+   ```python
+   # Creating new strings instead of modifying in place
+   if no_ness[-1] == 'i':
+       return no_ness[:-1] + 'y'  # Replace ending with new character
+   ```
+
+### Boolean Logic and Conditions
+
+My understanding of boolean logic evolved throughout these exercises:
+
+- **First discovery**: In the string manipulation exercise, I first learned about the existence of `isalnum()` as a way to detect if a character is alphanumeric
+- **Deeper understanding**: In the string methods exercise, I had to learn how to properly use `isalnum()` in boolean expressions with the `not` operator: `not word[-1].isalnum()`
+- **Combining conditions**: I refreshed my knowledge on combining conditions with `and`/`or`: `if word and not word[-1].isalnum()`
+- **Truthiness**: I learned that an empty string is falsy in Python, so `if word:` checks if the string isn't empty
+
 ### Progression in My Solutions
 
-#### From Imperative to Pythonic
+#### From Verbose to Concise Approaches
 
-I initially approached problems with explicit, step-by-step logic:
+I noticed improvements in my coding approach throughout these exercises. For example, in `make_word_groups`, my initial approach tried to build the result entirely within the loop:
 
 ```python
-# Initial string prefix approach
-def add_prefix_un(word):
-    un_word = 'un' + str(word)
-    return un_word
+# Initial verbose attempt (pseudocode)
+prefix = vocab_words[0]
+for words in vocab_words (1:):
+   word_groups = f"{prefix} :: {prefix}"
+   return
 ```
 
-As I progressed, I learned more concise Pythonic expressions:
+I later realized it's better to initialize a variable outside the loop and build upon it:
 
 ```python
-# More Pythonic approach
-def add_prefix_un(word):
-    return f'un{word}'  # Using f-strings for clarity
+# Final, cleaner approach
+prefix = vocab_words[0]
+result = prefix
+for word in range(1, len(vocab_words)):
+    result += f' :: {prefix}{vocab_words[word]}'
+return result
 ```
 
 #### From Manual Processing to Built-in Methods
