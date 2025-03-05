@@ -16,6 +16,7 @@ This repository serves as my coding gymnasium - a place where I consistently exe
 ```
 code-fluency/
 ├── python-practice/
+│   ├── README.md               # Summary of concepts learned in Python
 │   ├── exercism-refreshers/    # Exercises from Exercism's Python track
 │   │   └── [topic-folders]/    # Organized by concept (strings, conditionals, etc.)
 │   │       ├── README.md       # Concepts learned in this topic
