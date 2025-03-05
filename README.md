@@ -27,14 +27,17 @@ code-fluency/
 │           └── [solutions]     # My implementations
 │
 ├── javascript-practice/
+│   ├── README.md               # Summary of concepts learned in Javascript
 │   ├── exercism-refreshers/    # Exercises from Exercism's JavaScript track
 │   └── algorithm-practice/     # JavaScript implementations of algorithms
 │
 ├── sql-practice/
+│   ├── README.md               # Summary of concepts learned in SQL
 │   ├── exercism-refreshers/    # SQL practice exercises
 │   └── algorithm-practice/     # Advanced SQL query patterns
 │
 └── cheatsheets/                # Quick reference guides for common syntax
+    └── README.md               # High level overview of the contents of this directory
 ```
 
 ## Current Focus Areas
@@ -43,16 +46,35 @@ code-fluency/
 
 ## Future Focus Areas
 
-- **JavaScript**: Expanding knowledge of modern JavaScript features
+- **JavaScript**: Learn JavaScript systematically
 - **SQL**: Practicing complex query patterns and optimization
 
-## Things I Keep Forgetting
+## Common Lookup Points
 
-This section tracks syntax patterns I frequently need to reference:
+This section tracks syntax and concepts I find myself needing to reference:
 
 ### Python
-- String methods (`isalnum()`, `strip()`, etc.)
-- Loop constructions
+- Comparison chaining (`1 <= number <= 64` vs. `number >= 1 and number <= 64`)
+- Exponentiation syntax (`**` not `^` like in Excel)
+- Floor division operator (`//`) for getting whole number results
+- The syntax for raising errors (`raise ValueError("message")`)
+- Range-based for loops syntax (`for square_number in range(1, 65):`)
+- Programming approach reminders:
+  - Writing elegant, concise implementations instead of verbose, convoluted solutions
+  - Recognizing standard patterns instead of overthinking problems
+  - Leveraging built-in functions and methods instead of implementing everything manually
+  - Using flat structures with early returns instead of nesting multiple conditionals
+
+## New Techniques Learned
+
+This section tracks syntax and concepts I have picked up during my practice:
+
+### Python
+- Bitwise operators for efficient calculations (`1 << n` as an alternative to `2 ** n`)
+- String methods like `isalnum()` for character type checking
+- Using `enumerate()` for cleaner iteration with indexes
+- Boolean simplification (using `return condition` instead of verbose conditionals)
+- Mathematical optimizations (like using formulas for sum of geometric series)
 
 ## Learning Philosophy
 
